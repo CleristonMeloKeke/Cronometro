@@ -58,7 +58,6 @@ button {
     font-weight: 700;
     font-size: 14px;
     color: #ffffff; 
-    
     border-radius: 10px;
     width: 90px;
     height: 35px;
@@ -124,4 +123,19 @@ button {
     opacity: .5;
     background-color: #82a5f3;
     border: 1px solid #82a5f3;
+}
+
+@media screen and (max-width: 425px) { 
+    .title {
+        font-size: 30px;
+        margin: 150px auto 50px;
+    }
+
+    .clock {
+        font-size: 26px;
+    }
+
+    button {
+        margin: 50px 5px;
+    }
 }
