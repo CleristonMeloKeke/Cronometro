@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+}
+
+body {
+    background-color: #727e8f;
+    color: #ffffff;
+}
+
+main {
+    text-align: center;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 20px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h1 {
+    padding: 0 15px;
+    background-color: #1c7d9b;
+    box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+}
+
+h2 {
+    padding: 0 15px;
+    background-color: #1c7d9b;
+    font-family: "Bungee Inline", sans-serif;
+    box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 20px 5px;
+    padding: 5px 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff; 
+    
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.67);
+}
+
+.start {
+    background-color: #077496;
+    border: 1px solid #077496;
+}
+
+.start:hover {
+    opacity: .8;
+    font-size: 17px;
+    color: #665007;
+    background-color: #d3dd3f;
+    border: 1px solid #d3dd3f;
+}
+
+.start:active {
+    opacity: .5;
+    background-color: #d3dd3f;
+    border: 1px solid #d3dd3f;
+}
+
+.stop {
+    background-color: #fa5a3e;
+    border: 1px solid #fa5a3e;
+}
+
+.stop:hover {
+    opacity: .8;
+    font-size: 17px;
+    color: #665007;
+    background-color: #34f8c7;
+    border: 1px solid #34f8c7;
+}
+
+.stop:active {
+    opacity: .5;
+    background-color: #34f8c7;
+    border: 1px solid #34f8c7;
+}
+
+.reset {
+    background-color: #fa45e2;
+    border: 1px solid #fa45e2;
+}
+
+.reset:hover {
+    opacity: .8;
+    font-size: 17px;
+    color: #665007;
+    background-color: #82a5f3;
+    border: 1px solid #82a5f3;
+}
+
+.reset:active {
+    opacity: .5;
+    background-color: #82a5f3;
+    border: 1px solid #82a5f3;
+}
